@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>百度一下，你就知道</title>
+	<!--icon图标的引用-->
+	<link rel="shortcut icon" href="favicon.ico">
+	<!--主页的css引用-->
+	<link rel="stylesheet" href="css/index.css">
+	<base target="_blank" />
+	<script type = "text/javascript" src = "js/timer.js">  
+        </script>  
+	
+</head>
+
+<body onload = "timer()">
+	<div class="box clean">
+		<div class="nav">
+			<ul>
+				<li><a href="#">新闻</a></li>
+				<li><a href="#">hao123</a></li>
+				<li><a href="#">地图</a></li>
+				<li><a href="#">视频</a></li>
+				<li><a href="#">贴吧</a></li>
+				<li><a href="#">学术</a></li>
+				<li><a href="#">登录</a></li>
+				<li><a href="#">设置</a></li>
+				<li><a href="#">更多产品</a></li>
+			</ul>
+		</div>
+		
+		<div class="form_wrapper">
+			<!--百度logo-->
+			<div class="logo">
+				<a href="#"><img src="images/bd_logo1.png"></a>
+			</div>
+			<!--搜索框-->
+			<form>
+				<div class="fm">
+					<input type="text" list="yu" autofocus>
+					<datalist id="yu">
+						<option value="小米官网">小米官网</option>
+						<option value="京东官网">京东官网</option>
+						<option value="百度官网">百度官网</option>
+					</datalist>
+					<i></i>
+					<input type="submit" value="百度一下">
+				</div>
+			</form>
+			<!--导航主体 start-->
+			
+			<div class="main-nav">
+				<div class="jd-nav">
+					<a href="Navigation set/jd/index.html" title="京东商城"><img src="images/jd-nav.png" alt="京东"></a>
+				</div>
+				<div class = "daojishi">  
+            		<h2>离放暑假还有：</h2>  
+           			<div id = "timer"></div>  
+       			 </div>  
+				<div class="mi-nav">
+					<a href="Navigation set/mi/index.html" title="小米商城"><img src="images/mi-nav.png" alt="小米"></a>
+				</div>
+			</div>
+			
+			
+			<!--导航主体 end-->
+			<!--footer 底部部分 start-->
+			
+			<div class="qrcode">
+				<div class="qrcode-top">
+					<div class="qrcode-img">
+						<img src="images/zbios_efde696.png" alt= "百度app二维码" />
+						<p>百度</p>
+					</div>
+				</div> 
+				<div class=".qrcode-bottom">
+					<div class="qrcode-bottom-in">
+						<p class="lh">
+							<a href="#">把百度设为主页</a>
+							<a href="#">关于百度</a>
+							<a href="#">About  Baidu</a>
+							<a href="#">百度推广</a>
+						</p>
+						<p class="cp">    
+							<span>&copy;2018 Baidu</span>
+							<a href="#">使用百度前必读</a>
+							<a href="#">意见反馈</a>
+							<span class="s-1">京ICP证030173号</span>
+							<i class="i-1"></i>
+							<a href="#">京公网安备11000002000001号 </a>
+							<i class="i-2"></i>
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--footer 底部部分 end-->
+		</div>
+	</div>
+</body>
+</html>
